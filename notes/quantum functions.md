@@ -1,0 +1,1 @@
+Analogous to the [[Boolean concept class]], define a quantum concept class as a family of sets $\{S_n\}$ where $S_n$ is a set of quantum circuits on $n$ qubits. (Technically, they don't need to be full circuits, as we only care about their action on the initialized state.)

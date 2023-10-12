@@ -1,0 +1,2 @@
+# Real functions
+Let $S$ be a [[p-concept class]] over $\{0, 1\}^n$. The subset $C \subseteq S$ is an $\epsilon$-cover for $S$ if for all $f \in S$, there exists a $g \in C$ such that $\Delta_\infty(f, g) \leq \epsilon$. We say that $S$ is *coverable* if for all $\epsilon > 0$, there exists an $\epsilon$-cover for $S$ of size $2^{\text{poly}(n, 1/\epsilon)}$. 

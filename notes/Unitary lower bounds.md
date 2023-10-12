@@ -1,0 +1,3 @@
+Nayak: For a permutation $\sigma$ of $\{0, 1\}^n$ let $A_\sigma$ be the unitary defined by 
+$$A_\sigma \ket{x,y} = \ket{x, y\oplus \sigma(x)}$$
+for all $x, y \in \{0, 1\}^n$. Any quantum circuit making $o(2^{n/2})$ queries to $A_\sigma$ outputs $\sigma^{-1}(0^n)$ with probability less than 1/2, where the probability is over a uniform random permutation $\sigma$ of $\{0, 1\}^n$ as well as the randomness of the output measurement. 

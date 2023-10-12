@@ -1,0 +1,1 @@
+Let $\rho$ be a density matrix and $\Lambda$ be a positive semidefinite hermitian matrix. If $\text{Tr}[\Lambda\rho] \geq 1 - \epsilon$, then $F(\rho, \rho|_\Lambda) \geq 1 - \epsilon$ and $||\rho - \rho|_\Lambda||_1 \leq 2\sqrt{\epsilon}$. 

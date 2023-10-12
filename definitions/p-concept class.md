@@ -1,0 +1,1 @@
+A *$p$-concept class* $S$ over $\{0, 1\}^n$ is a family of functions $f : \{0, 1\}^n \rightarrow [0, 1]$. 

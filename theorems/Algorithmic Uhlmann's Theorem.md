@@ -1,0 +1,6 @@
+# Statement
+Let $\delta(n)$ be a function and let $(\ket{\psi_n})_n$, $(\ket{\phi_n})_n \in$ [[statePSPACE]]$_\delta$ be pure state families. Suppose that for each $n$ the states $\ket{\psi_n}$, $\ket{\phi_n}$ have the same number of qubits and the qubits can be divided into two registers $\sc{A}_n$ and $\sc{B}_n$. Then for all polynomials $q(n)$ there exists a sequence of unitaries $(K_n)_n$ in $\sc{unitaryPSPACE}$ such that $K_n$ acts on registers $\sc{B}_n$ and an ancilla register $\sc{R}_n$ and satisfies
+$$|| I_{A_n} \otimes K_n \ket{\phi_n}_{A_n B_n} \ket{0}_{R_n} - \ket{\psi_n}_{A_n B_n} \ket{0}_{R_n} ||^2 \leq 2(1-F(\rho_n, \sigma_n)) + O(\delta(n)) + 2^{-q(n)}$$
+where $\rho_n$ and $\sigma_n$ are the reduced density matrices on register $\sc{A}_n$ of $\ket{\psi_n}$ and $\ket{\phi_n}$ respectively. 
+
+Furthermore, the description of the Turing machine that outputs the circuits implementing the unitaries $(K_n)_n$ can be computed in polynomial time from the descriptions of the Turing machines that output the circuits for preparing the states $(\ket{\psi_n})_n$ and $(\ket{\phi_n})_n$. 
